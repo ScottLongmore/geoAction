@@ -1,13 +1,13 @@
 geoAction/polygonAction
 ======
 :Description: Flask RESTful API that takes geoJSON POST containing two polygon features and finds either the intersection or union given by the route. Geojson files must contain a FeatureCollection with exactly two polygon features. See the the polygonPair.json example file.
-:Keywords: geojson, intersection, union, flask, shapely 
+:Keywords: geojson, intersection, union, flask, shapely  
 :Version:0.1.0  
-:Last Edit: 2018-5-20
-:Author: Scott Longmore
-:Contact: Scott.Longmore@gmail.com
+:Last Edit: 2018-5-20  
+:Author: Scott Longmore  
+:Contact: Scott.Longmore@gmail.com  
 
-** Syntax **
+** Syntax ** 
 
 To run the polyAction service, start the flask service: 
 
@@ -26,7 +26,7 @@ To run polygonAction tests in tests directory:
 > python polygonAction_tests.py -v 
 
 
-** Directory/File Structure **
+** Directory/File Structure ** 
 
 * run.py - runs polygonAction flask service
 * config.py - configuration for polygonAction service
