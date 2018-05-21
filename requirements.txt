@@ -1,0 +1,4 @@
+flask==1.02
+flask-testing==0.7.1
+geojson==2.0.3
+shapely==1.4.1
