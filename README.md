@@ -1,4 +1,3 @@
-======
 geoAction/polygonAction
 ======
 :Description: Flask RESTful API that takes geoJSON POST containing two polygon features and finds either the intersection or union given by the route. Geojson files must contain a FeatureCollection with exactly two polygon features. See the the polygonPair.json example file.
