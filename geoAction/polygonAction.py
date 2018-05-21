@@ -60,11 +60,13 @@ def polygon_action(action):
         return(internal_server("Problem extracting polygons: {}".format(e)))
 
     # Perform action on polygon pair
+    polyAction=None
     try:
-        if action is 'intersection':
+        if action == 'intersection':
             polyAction = poly0.intersection(poly1)
         else:
             polyAction = poly0.union(poly1)
+
     except Exception, e:
         # traceback.print_exc()
         return(
