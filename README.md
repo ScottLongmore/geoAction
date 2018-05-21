@@ -7,7 +7,7 @@ geoAction/polygonAction
 :Author: Scott Longmore  
 :Contact: Scott.Longmore@gmail.com  
 
-** Syntax ** 
+**Syntax** 
 
 To run the polyAction service, start the flask service: 
 
@@ -25,8 +25,7 @@ To run polygonAction tests in tests directory:
 
 > python polygonAction_tests.py -v 
 
-
-** Directory/File Structure ** 
+**Directory/File Structure** 
 
 * run.py - runs polygonAction flask service
 * config.py - configuration for polygonAction service
